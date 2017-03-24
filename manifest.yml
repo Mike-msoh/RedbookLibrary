@@ -1,8 +1,8 @@
 applications:
-- name: redbooklibrary
+- name: oms-redbooklibrary
   memory: 512M
   path: RedbookLibrary.war
-  host: redbook-library
+  host: oms-redbook-library
   buildpack: liberty-for-java 
   services:
   - redbooklib-dashDB
